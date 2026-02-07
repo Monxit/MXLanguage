@@ -1,0 +1,33 @@
+{
+  "name": "mx",
+  "displayName": "MX Language Support",
+  "description": "The official support for MX programming language",
+  "version": "0.0.1",
+  "publisher": "YoCreedo",
+  "engines": {
+    "vscode": "^1.108.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "monxit",
+      "aliases": ["Monxit", "monxit"],
+      "extensions": [".mx",".monxit"],
+      "configuration": "./language-configuration.json"
+    }],
+    "iconThemes": [
+    {
+      "id": "monxit-icons",
+      "label": "Monxit Icons",
+      "path": "./icons/monxit-icon-theme.json"
+    }
+  ],
+    "grammars": [{
+      "language": "monxit",
+      "scopeName": "source.monxit",
+      "path": "./syntaxes/monxit.tmLanguage.json"
+    }]
+  }
+}
