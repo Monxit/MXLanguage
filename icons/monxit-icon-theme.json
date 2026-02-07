@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./icon.png"
+    }
+  },
+  "fileExtensions": {
+    "mx": "_file",
+    "monxit": "_file"
+  },
+  "folderNames": {},
+  "folderNamesExpanded": {}
+}
